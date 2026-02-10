@@ -1,14 +1,14 @@
 # Portfólio de Projetos Pessoais – Angular 19 + PHP + MariaDB
 
 > ⚠️ **Aviso importante**  
-> Este repositório é **exclusivamente documental**, apresentando visão geral, arquitetura e decisões técnicas de projetos pessoais.  
+> Este repositório é **exclusivamente documental**, apresentando visão geral, arquitetura, testes e decisões técnicas de projetos pessoais.  
 > O código-fonte completo é mantido em **repositórios privados** por questões contratuais e de confidencialidade.
 
-Este portfólio reúne documentação de três projetos pessoais desenvolvidos com **Angular 19 (front-end)**, **PHP (back-end)** e **MariaDB**. Todos os projetos utilizam o mesmo layout base (Sakai Free) e arquitetura baseada em **componentização e contratos de API**, garantindo **reuso, manutenção e consistência entre telas**.
+Este portfólio reúne documentação de três projetos pessoais desenvolvidos com **Angular 19 (Front-end)**, **PHP (Back-end)** e **MariaDB (Banco de Dados)**. Todos os projetos utilizam o mesmo layout base (Sakai Free) e arquitetura baseada em **componentização e contratos de API**, garantindo **reuso, manutenção e consistência entre telas**.
 
 ---
 
-## 🧱 Arquitetura e Tecnologias
+## 🧱 Arquitetura, Tecnologias e QA
 
 - **Angular 19 (Front-end)**
   - Componentes reutilizáveis e serviços desacoplados
@@ -21,6 +21,12 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 - **MariaDB (Banco de dados)**
   - Modelagem relacional, integridade e consistência de dados
 
+- **QA / Testes Automatizados**
+  - Testes end-to-end com **Cypress**
+  - Testes baseados em comportamento usando **Cucumber**
+  - Validação de fluxos críticos e consistência de dados
+  - Estratégia de testes aplicada à arquitetura de componentes Angular
+
 ### Componentização e Contratos
 
 - Componentes Angular recebem dados via `@Input` e emitem eventos via `@Output`
@@ -31,7 +37,7 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 
 ## 🤖 Apoio de IA Generativa
 
-- IA Generativa utilizada como **suporte**, oferecendo sugestões de arquitetura, validação de contratos de API e revisão de código
+- IA Generativa utilizada como **suporte**, oferecendo sugestões de arquitetura, validação de contratos de API, testes e revisão de código
 - Todas as decisões técnicas foram feitas manualmente e validadas pelo desenvolvedor
 
 ---
@@ -44,6 +50,7 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 - Controle financeiro e administração de aluguéis
 - Componentes reutilizáveis exibindo os mesmos dados em diferentes telas
 - Uso de contratos de API padronizados
+- Testes automatizados para fluxos críticos (Cypress + Cucumber)
 
 **Imagens ilustrativas (dados fictícios / blur):**
 
@@ -58,6 +65,7 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 - Controle de contratos de locação e parcelas
 - Monitoramento de imóveis alugados e agenda de vencimentos
 - Reaproveitamento de componentes e layout do projeto de advocacia
+- Testes automatizados para validação de contratos e fluxo de pagamentos
 
 **Imagens ilustrativas (dados fictícios / blur):**
 
@@ -72,6 +80,7 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 - Controle de pacientes, atendimentos e histórico de condutas
 - Registro de condutas realizadas em cada sessão
 - Componentes reutilizáveis para exibir dados de pacientes em diferentes telas
+- Testes automatizados para fluxos de registro de condutas e histórico de pacientes
 
 **Imagens ilustrativas (dados fictícios / blur):**
 
@@ -83,7 +92,7 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 
 ## 📬 Contato
 
-Para mais informações sobre arquitetura, decisões técnicas ou detalhes dos projetos, entre em contato pelo e-mail: **nobbre@gmail.com**
+Para mais informações sobre arquitetura, QA, decisões técnicas ou detalhes dos projetos, entre em contato pelo e-mail: **nobbre@gmail.com**
 
 ---
 
