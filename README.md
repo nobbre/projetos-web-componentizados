@@ -1,79 +1,10 @@
-# Projetos Pessoais – Angular 19 + PHP + MariaDB
+# Portfólio de Projetos Pessoais – Angular 19 + PHP + MariaDB
 
 > ⚠️ **Aviso importante**  
 > Este repositório é **exclusivamente documental**, apresentando visão geral, arquitetura e decisões técnicas de projetos pessoais.  
 > O código-fonte completo é mantido em **repositórios privados** por questões contratuais e de confidencialidade.
 
-Este repositório reúne documentação de três projetos pessoais desenvolvidos com **Angular 19 (front-end)**, **PHP (back-end)** e **MariaDB (banco de dados)**. Todos utilizam o mesmo layout base (Sakai Free) e arquitetura baseada em **componentização e contratos de API**, garantindo **reuso, manutenção e consistência entre telas**.
-
----
-
-## 🏛️ Projetos
-
-### 1️⃣ Sistema de Gestão para Escritório de Advocacia
-
-- Gestão de clientes, processos e andamento processual
-- Controle financeiro e administração de aluguéis
-- Componentes reutilizáveis exibindo os mesmos dados em diferentes telas
-- Uso de contratos de API padronizados
-
-**Imagens ilustrativas (dados fictícios / blur):**
-
-#### Dash Inicial
-
-![Dashboard Advocacia](docs/images/inicio.png)
-
-#### Listagem de Clientes
-
-![Listagem de Clientes](docs/images/clientes.png)
-
-#### Dados, Contratos Processos, Andamentos, Documentos
-
-![Dados, Contratos, Processos, Andamentos, Documentos ](docs/images/dadoscliente.png)
-
----
-
-### 2️⃣ Sistema de Gestão Imobiliária
-
-- Controle de contratos de locação e parcelas
-- Monitoramento de imóveis alugados e agenda de vencimentos
-- Reaproveitamento de componentes e layout do projeto de advocacia
-
-**Imagens ilustrativas (dados fictícios / blur):**
-
-#### Dash Inicial
-
-![Dashboard Imobiliária](docs/images/dash_imob.png)
-
-#### Listagem de Locatários
-
-![Listagem de Locatários](docs/images/locatarios.png)
-
-#### Dados, Contratos, Documentos, Pagamentos e Histórico
-
-![Dados, Contratos , Documentos, Pagamentos](docs/images/dados_locatario.png)
-
----
-
-### 3️⃣ Sistema de Clínica de Fisioterapia
-
-- Controle de pacientes, atendimentos e histórico de condutas
-- Registro de condutas realizadas em cada sessão
-- Componentes reutilizáveis para exibir dados de pacientes em diferentes telas
-
-**Imagens ilustrativas (dados fictícios / blur):**
-
-#### Dash Inicial
-
-![Dashboard Clínica](docs/images/dash_acredita.png)
-
-#### Listagem de Clientes
-
-![Listagem de Clientes](docs/images/clientes_acredita.png)
-
-#### Dados, Condutas e Procedimentos
-
-![Dados do Cliente e Registro de Condutas](docs/images/dados_acredita.png)
+Este portfólio reúne documentação de três projetos pessoais desenvolvidos com **Angular 19 (front-end)**, **PHP (back-end)** e **MariaDB**. Todos os projetos utilizam o mesmo layout base (Sakai Free) e arquitetura baseada em **componentização e contratos de API**, garantindo **reuso, manutenção e consistência entre telas**.
 
 ---
 
@@ -100,11 +31,71 @@ Este repositório reúne documentação de três projetos pessoais desenvolvidos
 
 ## 🤖 Apoio de IA Generativa
 
-- IA Generativa usada como **suporte**, para sugestões de componentização, validação de contratos de API e revisão de código
+- IA Generativa utilizada como **suporte**, oferecendo sugestões de arquitetura, validação de contratos de API e revisão de código
 - Todas as decisões técnicas foram feitas manualmente e validadas pelo desenvolvedor
+
+---
+
+## 🏛️ Projetos
+
+### 1️⃣ Sistema de Gestão para Escritório de Advocacia
+
+- Gestão de clientes, processos e andamento processual
+- Controle financeiro e administração de aluguéis
+- Componentes reutilizáveis exibindo os mesmos dados em diferentes telas
+- Uso de contratos de API padronizados
+
+**Imagens ilustrativas (dados fictícios / blur):**
+
+- Dash Inicial: ![Dashboard Advocacia](docs/images/inicio.png)
+- Listagem de Clientes: ![Listagem de Clientes](docs/images/clientes.png)
+- Dados, Contratos, Processos, Andamentos e Documentos: ![Dados Cliente](docs/images/dadoscliente.png)
+
+---
+
+### 2️⃣ Sistema de Gestão Imobiliária
+
+- Controle de contratos de locação e parcelas
+- Monitoramento de imóveis alugados e agenda de vencimentos
+- Reaproveitamento de componentes e layout do projeto de advocacia
+
+**Imagens ilustrativas (dados fictícios / blur):**
+
+- Dash Inicial: ![Dashboard Imobiliária](docs/images/dash_imob.png)
+- Listagem de Locatários: ![Listagem de Locatários](docs/images/locatarios.png)
+- Dados, Contratos, Documentos e Pagamentos: ![Dados Locatário](docs/images/dados_locatario.png)
+
+---
+
+### 3️⃣ Sistema de Clínica de Fisioterapia
+
+- Controle de pacientes, atendimentos e histórico de condutas
+- Registro de condutas realizadas em cada sessão
+- Componentes reutilizáveis para exibir dados de pacientes em diferentes telas
+
+**Imagens ilustrativas (dados fictícios / blur):**
+
+- Dash Inicial: ![Dashboard Clínica](docs/images/dash_acredita.png)
+- Listagem de Clientes: ![Listagem de Clientes](docs/images/clientes_acredita.png)
+- Dados, Condutas e Procedimentos: ![Dados Cliente](docs/images/dados_acredita.png)
+
+---
+
+## 📌 Checklist antes de subir o repositório
+
+1. Todas as imagens estão na pasta `docs/images/`
+2. Dados sensíveis foram borrados ou substituídos por fictícios
+3. Nomes de imagens padronizados conforme README
+4. README revisado e formatado para visualização clara
 
 ---
 
 ## 📬 Contato
 
 Para mais informações sobre arquitetura, decisões técnicas ou detalhes dos projetos, entre em contato pelo e-mail: **nobbre@gmail.com**
+
+---
+
+## © Copyright 2026 – Documentação Pessoal
+
+Todos os direitos reservados. Este repositório é **apenas para fins documentais**, não contém código aberto. O código-fonte completo permanece privado por questões contratuais.
