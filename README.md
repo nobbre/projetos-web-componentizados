@@ -81,15 +81,6 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 
 ---
 
-## 📌 Checklist antes de subir o repositório
-
-1. Todas as imagens estão na pasta `docs/images/`
-2. Dados sensíveis foram borrados ou substituídos por fictícios
-3. Nomes de imagens padronizados conforme README
-4. README revisado e formatado para visualização clara
-
----
-
 ## 📬 Contato
 
 Para mais informações sobre arquitetura, decisões técnicas ou detalhes dos projetos, entre em contato pelo e-mail: **nobbre@gmail.com**
