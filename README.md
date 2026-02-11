@@ -52,11 +52,13 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 - Uso de contratos de API padronizados
 - Testes automatizados para fluxos críticos (Cypress + Cucumber)
 
-**Imagens ilustrativas (dados fictícios / blur):**
+**Imagens ilustrativas do Sistema:**
 
-- Dash Inicial: ![Dashboard Advocacia](docs/images/inicio.png)
-- Listagem de Clientes: ![Listagem de Clientes](docs/images/clientes.png)
-- Dados, Contratos, Processos, Andamentos e Documentos: ![Dados Cliente](docs/images/dadoscliente.png)
+- Dash Inicial: ![Dashboard Advocacia](docs/images/advo/dash_advocacia.png)
+- Listagem de Clientes: ![Listagem de Clientes](docs/images/advo/lista_clientes_advocacia.png)
+- Processos: ![Processos](docs/images/advo/andamento_processos.png)
+- Andamento dos Processos: ![Andamento dos Processos](docs/images/advo/andamento_processos.png)
+- Ficha Financeiro: ![Ficha Financeira](docs/images/advo/andamento_contatos.png)
 
 ---
 
@@ -67,11 +69,12 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 - Reaproveitamento de componentes e layout do projeto de advocacia
 - Testes automatizados para validação de contratos e fluxo de pagamentos
 
-**Imagens ilustrativas (dados fictícios / blur):**
+**Imagens ilustrativas do Sistema:**
 
-- Dash Inicial: ![Dashboard Imobiliária](docs/images/dash_imob.png)
-- Listagem de Locatários: ![Listagem de Locatários](docs/images/locatarios.png)
-- Dados, Contratos, Documentos e Pagamentos: ![Dados Locatário](docs/images/dados_locatario.png)
+- Dash Inicial: ![Dashboard Imobiliária](docs/images/imob/dash_imob.png)
+- Dados do Cliente: ![Dados Cliente](docs/images/imob/dados_cliente_imob.png)
+- Locações: ![Locações](docs/images/imob/dados_locacoes.png)
+- Pagamentos: ![Pagamentos](docs/images/imob/pagamentos_imob.png)
 
 ---
 
@@ -82,17 +85,17 @@ Este portfólio reúne documentação de três projetos pessoais desenvolvidos c
 - Componentes reutilizáveis para exibir dados de pacientes em diferentes telas
 - Testes automatizados para fluxos de registro de condutas e histórico de pacientes
 
-**Imagens ilustrativas (dados fictícios / blur):**
+**Imagens ilustrativas do Sistema:**
 
-- Dash Inicial: ![Dashboard Clínica](docs/images/dash_acredita.png)
-- Listagem de Clientes: ![Listagem de Clientes](docs/images/clientes_acredita.png)
-- Dados, Condutas e Procedimentos: ![Dados Cliente](docs/images/dados_acredita.png)
+- Dash Inicial: ![Dashboard Clínica](docs/images/acredita/dash_acredita.png)
+- Dados Cliente: ![Dados Cliente](docs/images/acredita/dados_cliente.png)
+- Condutas Realizadas: ![Condutas Realizadas](docs/images/acredita/dados_conduta.png)
 
 ---
 
 ## 📬 Contato
 
-Para mais informações sobre arquitetura, QA, decisões técnicas ou detalhes dos projetos, entre em contato pelo e-mail: **nobbre@gmail.com**
+Para mais informações sobre arquitetura, QA, decisões técnicas ou detalhes dos projetos, orçamentos, entre em contato pelo e-mail: **nobbre@gmail.com**
 
 ---
 
